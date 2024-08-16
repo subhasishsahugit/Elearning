@@ -178,16 +178,17 @@
     <!-- About End -->
 
 
-  <!-- Team Start -->
-  <div class="container-fluid py-5">
+<!-- Team Start -->
+<div class="container-fluid py-5">
     <style>
         .team-item {
             text-align: justify;
             padding: 20px; /* Added padding */
             border-radius: 10px; /* Added border radius */
             box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Added box shadow */
-            max-width: 20%;
-            flex: 0 0 20%;
+            max-width: 20%; /* Ensures each item takes up 20% of the width */
+            flex: 0 0 20%; /* Flexbox property to control item size */
+            margin: 10px; /* Adds margin around each team item */
         }
 
         .team-item .text-center {
@@ -202,26 +203,32 @@
 
         @media (max-width: 992px) {
             .team-item .text-center {
-                text-align: left;
+                text-align: center; /* Keeps alignment centered for medium screens */
             }
         }
 
         @media (max-width: 768px) {
             .team-item {
-                max-width: calc(100% - 10px);
-                margin: 0 auto 20px;
+                max-width: calc(50% - 20px); /* Adjusts size for small screens */
+                flex: 0 0 calc(50% - 20px);
+            }
+        }
+
+        @media (max-width: 576px) {
+            .team-item {
+                max-width: 100%; /* Adjusts size for extra small screens */
                 flex: 0 0 100%;
             }
         }
     </style>
-    <div class="container d-flex justify-content-between flex-wrap">
+    <div class="container d-flex flex-wrap justify-content-between">
         <div class="text-center wow fadeInUp" data-wow-delay="0.1s" style="flex: 0 0 100%;">
             <h6 class="section-title bg-white text-center text-primary px-3">Members</h6>
             <h1 class="mb-5">Our Members</h1>
         </div>
         <div class="team-item bg-light wow fadeInUp" data-wow-delay="0.1s">
             <div class="overflow-hidden">
-                <img class="img-fluid" src="img/team-1.jpg" alt="">
+                <img class="img-fluid" src="img/team-1.jpg" alt="Suvam Ku Bhola">
             </div>
             <div class="text-center p-4">
                 <h5 class="mb-0">Suvam Ku Bhola</h5>
@@ -230,7 +237,7 @@
         </div>
         <div class="team-item bg-light wow fadeInUp" data-wow-delay="0.3s">
             <div class="overflow-hidden">
-                <img class="img-fluid" src="img/Sayed-ls.jpg" alt="">
+                <img class="img-fluid" src="img/Sayed-ls.jpg" alt="Sayed Ahemmad">
             </div>
             <div class="text-center p-4">
                 <h5 class="mb-0">Sayed Ahemmad</h5>
@@ -239,7 +246,7 @@
         </div>
         <div class="team-item bg-light wow fadeInUp" data-wow-delay="0.5s">
             <div class="overflow-hidden">
-                <img class="img-fluid" src="img/team-3.jpg" alt="">
+                <img class="img-fluid" src="img/team-3.jpg" alt="Subhasish Sahu">
             </div>
             <div class="text-center p-4">
                 <h5 class="mb-0">Subhasish Sahu</h5>
@@ -248,16 +255,16 @@
         </div>
         <div class="team-item bg-light wow fadeInUp" data-wow-delay="0.7s">
             <div class="overflow-hidden">
-                <img class="img-fluid" src="img/haripada-ls.jpg" alt="">
+                <img class="img-fluid" src="img/haripada-ls.jpg" alt="Haripada Sahoo">
             </div>
             <div class="text-center p-4">
-                <h5 class="mb-0">Haripada sahoo</h5>
+                <h5 class="mb-0">Haripada Sahoo</h5>
                 <small>Designation</small>
             </div>
         </div>
         <div class="team-item bg-light wow fadeInUp" data-wow-delay="0.9s">
             <div class="overflow-hidden">
-                <img class="img-fluid" src="img/mohan-li.jpg" alt="">
+                <img class="img-fluid" src="img/mohan-li.jpg" alt="Mohan Ku Dash">
             </div>
             <div class="text-center p-4">
                 <h5 class="mb-0">Mohan Ku Dash</h5>
@@ -267,6 +274,7 @@
     </div>
 </div>
 <!-- Team End -->
+
         
 
     <!-- Footer Start -->
