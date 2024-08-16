@@ -7,14 +7,20 @@ Content Delivery: Browse and access course materials including videos, lectures,
 Interactivity & Engagement: Participate in discussions, forums, and live virtual classrooms.
 Mobile Responsiveness: Optimized for all devices, ensuring consistent user experience.
 Scalability & Performance: Designed to handle a growing user base and content library efficiently.
+
+
 🛠️ Tech Stack
 Frontend: HTML, CSS, JavaScript, Bootstrap
 Database: (Future integration planned)
+
+
 📈 Future Scope
 Database Integration: Implement a robust database for user data management, course content storage, and personalized learning.
 Enhanced Interactivity: Incorporate more interactive features like quizzes, certifications, and real-time chat.
 Content Expansion: Add more courses across diverse disciplines and continuously update existing content.
 Admin Dashboard: Develop an intuitive admin panel for better management of courses, users, and platform analytics.
+
+
 🚀 Getting Started
 Clone the repository:
 bash
@@ -25,6 +31,8 @@ bash
 Copy code
 cd e-learning-website
 Set up your local development environment and install necessary dependencies.
+
+
 💬 Community & Support
 Join the discussion in our Community Forum to share your thoughts, ask questions, and collaborate with others.
 
