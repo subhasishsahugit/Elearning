@@ -4,11 +4,6 @@ Welcome to our E-Learning Website, an online platform designed to provide compre
 
 [Visit the E-Learning Website](https://subhasish-sahu-git.github.io/Elearning/)
 
-## 🌟 Features
-...
-
-
-
 🌟 Features
 User Authentication & Management: Secure user registration, login, and profile management.
 Content Delivery: Browse and access course materials including videos, lectures, assignments, and quizzes.
